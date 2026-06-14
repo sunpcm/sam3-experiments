@@ -1,0 +1,20 @@
+{
+  "target_id": "references",
+  "config": "/home/sunpcm/workspace/sam3_demo/configs/demo.yaml",
+  "references": [
+    "data/references/D1GH261203 (1).png",
+    "data/references/D1GH261203 (10).png",
+    "data/references/D1GH261203 (2).png",
+    "data/references/D1GH261203 (5).png",
+    "data/references/D1GH261203 (8).png",
+    "data/references/D1GH261203 (9).png"
+  ],
+  "images": [
+    {
+      "image": "data/production/638b8518d70843af9b5473abaf3f1be1.png",
+      "mask_png": "outputs/masks/638b8518d70843af9b5473abaf3f1be1.png",
+      "visualization": "outputs/visualizations/638b8518d70843af9b5473abaf3f1be1.jpg",
+      "instances": []
+    }
+  ]
+}
