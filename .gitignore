@@ -17,6 +17,8 @@ outputs/
 
 # Keep the data directory, but do not commit image payloads
 !data/
+!data/production/
+!data/references/
 data/**/*.png
 data/**/*.jpg
 data/**/*.jpeg
@@ -26,3 +28,5 @@ data/**/*.bmp
 
 # Keep empty data directory in git
 !data/.gitkeep
+!data/production/.gitkeep
+!data/references/.gitkeep
