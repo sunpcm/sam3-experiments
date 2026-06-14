@@ -1,0 +1,28 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+data/**/.ipynb_checkpoints/
+
+# Generated outputs
+outputs/
+
+# Keep the data directory, but do not commit image payloads
+!data/
+data/**/*.png
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.gif
+data/**/*.webp
+data/**/*.bmp
+
+# Keep empty data directory in git
+!data/.gitkeep
